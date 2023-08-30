@@ -48,3 +48,53 @@ div.footer div{
     margin-top: 25px;
     margin-left: 80px;
 }
+
+@media (max-width: 1000px){
+    div.footer div{
+        margin-top: 10px;
+    }
+    div.footer div p{
+        font-size: 15px;
+    }
+    div.footer{
+        height: 100px;
+    } 
+    div.footer img{
+        height: 100px;
+    }
+
+}
+@media (max-width: 700px){
+    div.footer div{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    div.footer div p{
+        font-size: 12px;
+    }
+    div.footer{
+        height: 75px;
+    } 
+    div.footer img{
+        height: 80px;
+    }
+}
+@media (max-width: 510px){
+    .reseau p{
+        font-size: 20px;
+    }
+    div.footer div{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    div.footer div p{
+        font-size: 8px;
+    }
+    div.footer{
+        height: 55px;
+    } 
+    div.footer img{
+        height: 60px;
+    }
+
+}
