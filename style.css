@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.reseau {
+    display: flex;
+    justify-content: center;
+    font-family: 'Kaushan Script', cursive;
+    margin-bottom: 30px;
+}
+.reseau p{
+    font-size: 25px;
+}
+
+div.logo{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.logo a img{
+    height: 37px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.footer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    background-color: #346077;
+}
+div.footer img{
+    margin-left: 10px;
+    height: 150px;
+}
+
+div.footer div p{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: #ffff;
+    margin-bottom: 5px;
+   
+
+}
+div.footer div{
+    margin-top: 25px;
+    margin-left: 80px;
+}
